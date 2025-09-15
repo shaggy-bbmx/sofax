@@ -7,8 +7,6 @@ function PortfolioCard({ testimonial: { rating, title, description, author, desi
 				loop
 				muted
 				playsInline
-				data-wf-ignore="true"
-				data-object-fit="cover"
 				style={{ width: '100%', height: 'auto' }}
 			>
 				<source src={url} type="video/mp4" data-wf-ignore="true" />
