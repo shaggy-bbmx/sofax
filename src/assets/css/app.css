@@ -4096,7 +4096,7 @@ h1.post__title {
 	/* padding: 35px; */
 	border-radius: 10px;
 	direction: ltr;
-	height: 16rem;
+	height: auto;
 	overflow: hidden;
 	cursor: pointer;
 }
