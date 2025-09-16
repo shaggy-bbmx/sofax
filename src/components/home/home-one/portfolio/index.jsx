@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Thumb1Img from "../../../../assets/images/v1/member1.png";
 import Thumb2Img from "../../../../assets/images/v1/member2.png";
 import Thumb3Img from "../../../../assets/images/v1/member3.png";
+import thumbnail1 from '../../../../assets/images/vedio-1-thumbnail.jpg'
 import PortfolioCard from "./PortfolioCard";
 
 
@@ -20,7 +21,8 @@ const testimonialOneData = [
 		author: "William Jack",
 		designation: "Co-Founder",
 		img: Thumb1Img,
-		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/vedio-1_g5p2xm.mp4'
+		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/vedio-1_g5p2xm.mp4',
+		thumbnail: thumbnail1
 	},
 	{
 		id: crypto.randomUUID(),
@@ -31,7 +33,8 @@ const testimonialOneData = [
 		author: "Smith Align",
 		designation: "Businessman",
 		img: Thumb2Img,
-		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951798/vedio-2_wpm85p.mp4'
+		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951798/vedio-2_wpm85p.mp4',
+		thumbnail: thumbnail1
 	},
 	{
 		id: crypto.randomUUID(),
@@ -41,7 +44,8 @@ const testimonialOneData = [
 		author: "Smith Align",
 		designation: "Web Developer",
 		img: Thumb3Img,
-		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951798/vedio-3_irvbck.mp4'
+		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951798/vedio-3_irvbck.mp4',
+		thumbnail: thumbnail1
 	},
 	{
 		id: crypto.randomUUID(),
@@ -51,7 +55,8 @@ const testimonialOneData = [
 		author: "William Jack",
 		designation: "Co-Founder",
 		img: Thumb1Img,
-		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951806/vedio-4_magt7a.mp4'
+		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951806/vedio-4_magt7a.mp4',
+		thumbnail: thumbnail1
 	},
 	{
 		id: crypto.randomUUID(),
@@ -62,7 +67,8 @@ const testimonialOneData = [
 		author: "Smith Align",
 		designation: "Businessman",
 		img: Thumb2Img,
-		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951797/vedio-5_nodfmm.mp4'
+		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951797/vedio-5_nodfmm.mp4',
+		thumbnail: thumbnail1
 	},
 ];
 
@@ -75,7 +81,8 @@ const testimonialTwoData = [
 		author: "William Jack",
 		designation: "Co-Founder",
 		img: Thumb1Img,
-		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951807/vedio-6_gpoqft.mp4'
+		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951807/vedio-6_gpoqft.mp4',
+		thumbnail: thumbnail1
 	},
 	{
 		id: crypto.randomUUID(),
@@ -86,7 +93,8 @@ const testimonialTwoData = [
 		author: "Smith Align",
 		designation: "Businessman",
 		img: Thumb2Img,
-		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951803/vedio-8_wuia27.mp4'
+		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951803/vedio-8_wuia27.mp4',
+		thumbnail: thumbnail1
 	},
 	{
 		id: crypto.randomUUID(),
@@ -96,7 +104,8 @@ const testimonialTwoData = [
 		author: "Smith Align",
 		designation: "Web Developer",
 		img: Thumb3Img,
-		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951813/vedio-9_vmd6yt.mp4'
+		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951813/vedio-9_vmd6yt.mp4',
+		thumbnail: thumbnail1
 	},
 	{
 		id: crypto.randomUUID(),
@@ -106,7 +115,8 @@ const testimonialTwoData = [
 		author: "William Jack",
 		designation: "Co-Founder",
 		img: Thumb1Img,
-		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951807/vedio-10_xj0pla.mp4'
+		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951807/vedio-10_xj0pla.mp4',
+		thumbnail: thumbnail1
 	},
 	{
 		id: crypto.randomUUID(),
@@ -117,7 +127,8 @@ const testimonialTwoData = [
 		author: "Smith Align",
 		designation: "Businessman",
 		img: Thumb2Img,
-		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951798/vedio-3_irvbck.mp4'
+		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951798/vedio-3_irvbck.mp4',
+		thumbnail: thumbnail1
 	},
 ];
 
