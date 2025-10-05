@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
-import Logo from "../../../../assets/images/logo/logo-dark.svg";
+import Logo from "../../../../assets/images/logo/splay_icon.svg";
 import Field from "../../../common/Field";
 import FooterCopyright from "./FooterCopyright";
 import FooterCta from "./FooterCta";
@@ -28,11 +28,10 @@ function Footer() {
 						<div className="col-xl-4 col-md-12">
 							<div className="sofax-footer-wrap mr-25">
 								<Link to="/muti-page/home-five">
-									<img src={Logo} alt="logo" />
+									<img src={Logo} alt="logo" className="max-w-50" />
 								</Link>
 								<p>
-									Sofax has many plans for the future to work with great clients and continue to work
-									with agencies.
+									Splay is scaling up — collaborating with great SaaS clients.
 								</p>
 								<div className="sofax-social-icon">
 									<ul>
@@ -125,22 +124,22 @@ function Footer() {
 								<h5>Company</h5>
 								<ul>
 									<li>
-										<a href="about-us.html">About Us</a>
+										<a href="about-us.html">Potfolio</a>
+									</li>
+									<li>
+										<a href="contact-us.html">Testimonials</a>
 									</li>
 									<li>
 										<a href="contact-us.html">Contact US</a>
 									</li>
-									<li>
-										<a href="contact-us.html">Privacy Policy</a>
-									</li>
-									<li>
+									{/* <li>
 										<a href="terms&condition.html">Terms & Conditions</a>
-									</li>
+									</li> */}
 								</ul>
 							</div>
 						</div>
 						<div className="col-xl-2 col-md-4">
-							<div className="sofax-footer-menu">
+							{/* <div className="sofax-footer-menu">
 								<h5>Utility pages</h5>
 								<ul>
 									<li>
@@ -156,7 +155,7 @@ function Footer() {
 										<a href="contact-us.html">Licenses</a>
 									</li>
 								</ul>
-							</div>
+							</div> */}
 						</div>
 						<div className="col-xl-3 col-md-4">
 							<div className="sofax-footer-menu">
@@ -174,7 +173,7 @@ function Footer() {
 											/>
 										</Field>
 										<button type="submit" className="sofax-subcribe-btn2">
-											Subscribe now
+											Get estimate in 1 min
 										</button>
 									</form>
 								</div>

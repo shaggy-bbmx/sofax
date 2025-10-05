@@ -77,7 +77,7 @@ function LogoSlider() {
 		<section className="sofax-slider-section">
 			<div className="container">
 				<div className="sofax-title-section">
-					<h4>Trusted by 1600+ of the world&apos;s most popular companies</h4>
+					<h4>Trusted by 1000+ SaaS startups</h4>
 				</div>
 				<div className="sofax-brand-slider">
 					{

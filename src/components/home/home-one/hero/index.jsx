@@ -10,7 +10,7 @@ function HeroSection() {
 				<div className="sofax-subscription-field blog-details-subscribe-btn">
 					<input type="email" placeholder="Enter your email " />
 					<button id="sofax-subscription-btn" type="submit">
-						Start a 14 days free trail
+						Get estimate in 1 min
 					</button>
 				</div>
 				<div className="sofax-rating-icon">
@@ -30,7 +30,7 @@ function HeroSection() {
 						<li>
 							<img src={Rattinghalf} alt="Rating" />
 						</li>
-						<li>4.8/5 rating software trusted by users</li>
+						<li>4.9/5 Rating SaaS Video Agency</li>
 					</ul>
 				</div>
 				<HeroThumbs />

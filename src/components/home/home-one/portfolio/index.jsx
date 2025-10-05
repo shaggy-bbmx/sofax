@@ -22,7 +22,8 @@ const testimonialOneData = [
 		designation: "Co-Founder",
 		img: Thumb1Img,
 		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/vedio-1_g5p2xm.mp4',
-		thumbnail: thumbnail1
+		thumbnail: thumbnail1,
+		youtubeUrl: 'https://www.youtube.com/watch?v=BK0nmqHZmn8&t=9s'
 	},
 	{
 		id: crypto.randomUUID(),
@@ -34,7 +35,8 @@ const testimonialOneData = [
 		designation: "Businessman",
 		img: Thumb2Img,
 		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951798/vedio-2_wpm85p.mp4',
-		thumbnail: thumbnail1
+		thumbnail: thumbnail1,
+		youtubeUrl: 'https://www.youtube.com/watch?v=T5EmKgfb3cg'
 	},
 	{
 		id: crypto.randomUUID(),
@@ -45,7 +47,8 @@ const testimonialOneData = [
 		designation: "Web Developer",
 		img: Thumb3Img,
 		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951798/vedio-3_irvbck.mp4',
-		thumbnail: thumbnail1
+		thumbnail: thumbnail1,
+		youtubeUrl: 'https://www.youtube.com/watch?v=cDuiCJVBfhA'
 	},
 	{
 		id: crypto.randomUUID(),
@@ -56,7 +59,8 @@ const testimonialOneData = [
 		designation: "Co-Founder",
 		img: Thumb1Img,
 		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951806/vedio-4_magt7a.mp4',
-		thumbnail: thumbnail1
+		thumbnail: thumbnail1,
+		youtubeUrl: 'https://www.youtube.com/watch?v=sEGu1TWfG9I'
 	},
 	{
 		id: crypto.randomUUID(),
@@ -68,7 +72,8 @@ const testimonialOneData = [
 		designation: "Businessman",
 		img: Thumb2Img,
 		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951797/vedio-5_nodfmm.mp4',
-		thumbnail: thumbnail1
+		thumbnail: thumbnail1,
+		youtubeUrl: 'https://www.youtube.com/watch?v=aDwjwkmz-d4'
 	},
 ];
 
@@ -82,7 +87,8 @@ const testimonialTwoData = [
 		designation: "Co-Founder",
 		img: Thumb1Img,
 		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951807/vedio-6_gpoqft.mp4',
-		thumbnail: thumbnail1
+		thumbnail: thumbnail1,
+		youtubeUrl: 'https://www.youtube.com/watch?v=Z63RtdKd9pY'
 	},
 	{
 		id: crypto.randomUUID(),
@@ -94,7 +100,8 @@ const testimonialTwoData = [
 		designation: "Businessman",
 		img: Thumb2Img,
 		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951803/vedio-8_wuia27.mp4',
-		thumbnail: thumbnail1
+		thumbnail: thumbnail1,
+		youtubeUrl: 'https://www.youtube.com/watch?v=5c_fzAq5xzQ'
 	},
 	{
 		id: crypto.randomUUID(),
@@ -105,7 +112,8 @@ const testimonialTwoData = [
 		designation: "Web Developer",
 		img: Thumb3Img,
 		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951813/vedio-9_vmd6yt.mp4',
-		thumbnail: thumbnail1
+		thumbnail: thumbnail1,
+		youtubeUrl: 'https://www.youtube.com/watch?v=IdTznPAghok'
 	},
 	{
 		id: crypto.randomUUID(),
@@ -116,7 +124,8 @@ const testimonialTwoData = [
 		designation: "Co-Founder",
 		img: Thumb1Img,
 		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951807/vedio-10_xj0pla.mp4',
-		thumbnail: thumbnail1
+		thumbnail: thumbnail1,
+		youtubeUrl: 'https://www.youtube.com/watch?v=bRom40wffN0'
 	},
 	{
 		id: crypto.randomUUID(),
@@ -128,7 +137,8 @@ const testimonialTwoData = [
 		designation: "Businessman",
 		img: Thumb2Img,
 		url: 'https://res.cloudinary.com/dgklcxqcy/video/upload/v1757951798/vedio-3_irvbck.mp4',
-		thumbnail: thumbnail1
+		thumbnail: thumbnail1,
+		youtubeUrl: 'https://www.youtube.com/watch?v=dRuIVxg5_O0'
 	},
 ];
 
@@ -180,7 +190,7 @@ const swiperSettingsTwo = {
 };
 function Portfolio() {
 	return (
-		<section className="sofax-section-padding2" id="testimonial">
+		<section className="sofax-section-padding2 bg-black" id="testimonial">
 			{/* <div className="container">
 				<div className="sofax-section-title center">
 					<div className="tg-heading-subheading animation-style3">
@@ -210,9 +220,9 @@ function Portfolio() {
 
 			<div style={{ width: '100%', display: 'flex', justifyContent: 'center', paddingTop: '4rem' }}>
 				<FadeInUp className="sofax-title-btn">
-					<Link className="sofax-default-btn pill" data-text="View all services" to="/services">
-						<span className="button-wraper">View all services</span>
-					</Link>
+					<a href="https://www.youtube.com/@splay-video-production" className="sofax-default-btn pill" data-text="View portfolio">
+						<span className="button-wraper">View portfolio</span>
+					</a>
 				</FadeInUp>
 			</div>
 		</section>

@@ -10,23 +10,23 @@ const servicesData = [
 	{
 		id: crypto.randomUUID(),
 		icon: Icon1,
-		title: "Workflow Automation",
+		title: "Where Great Videos Begin: The Script",
 		description:
-			"Repetitive a tasks & workflows, such as email communications, follow-up, & data entry, freeing up sales.",
+			"Every unforgettable video starts with a killer script. At Splay, we blend creativity and strategy to craft scripts that speak to your audience and reflect your vision.",
 	},
 	{
 		id: crypto.randomUUID(),
 		icon: Icon2,
-		title: "Lead Management",
+		title: "Visualizing Your Story: The Art of Storyboarding",
 		description:
-			"Tracking, qualifying and nurturing to customers or leads throughout their journey in the sales pipeline.",
+			"A great video starts with a clear vision, and that's where storyboarding comes in. At Splay, we transform ideas into detailed visual blueprints, setting the stage for a seamless production.",
 	},
 	{
 		id: crypto.randomUUID(),
 		icon: Icon3,
-		title: "Sales Forecasting",
+		title: "Action Time: Bringing Your Story to Life",
 		description:
-			"Analyzing past sales data, including sales volume, revenue customers to demographics & seasonality.",
+			"The video production stage is where ideas leap off the page and onto the screen. At Splay, we bring together creativity, precision, and cutting-edge technology to ensure your vision is flawlessly executed.",
 	},
 ];
 function Services() {
@@ -40,13 +40,13 @@ function Services() {
 								<h2>Solution to organize your sales in one place</h2>
 							</div>
 						</div>
-						<div className="col-xl-4 col-lg-4 d-flex justify-content-end align-items-center">
+						{/* <div className="col-xl-4 col-lg-4 d-flex justify-content-end align-items-center">
 							<FadeInUp className="sofax-title-btn">
 								<Link className="sofax-default-btn pill" data-text="View all services" to="/services">
 									<span className="button-wraper">View all services</span>
 								</Link>
 							</FadeInUp>
-						</div>
+						</div> */}
 					</div>
 				</div>
 

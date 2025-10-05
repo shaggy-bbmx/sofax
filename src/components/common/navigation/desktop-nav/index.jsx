@@ -5,7 +5,7 @@ import NavItem from "./NavItem";
 function DesktopMenu() {
 	return (
 		<DesktopNav>
-			<NavItem dropdown title="Demos">
+			{/* <NavItem dropdown title="Demos">
 				<Dropdown>
 					<DropdownItem dropdown title="MultiPage">
 						<Dropdown noShape>
@@ -94,7 +94,9 @@ function DesktopMenu() {
 					<DropdownItem url="blog">Our Blog</DropdownItem>
 					<DropdownItem url="single-blog">Blog Details</DropdownItem>
 				</Dropdown>
-			</NavItem>
+			</NavItem> */}
+			<NavItem url="about-us">Portfolio</NavItem>
+			<NavItem url="about-us">Testimonials</NavItem>
 			<NavItem url="contact-us">Contact Us</NavItem>
 		</DesktopNav>
 	);

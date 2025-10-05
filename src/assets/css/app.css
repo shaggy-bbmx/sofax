@@ -87,6 +87,10 @@ body.styleguide {
 	background-color: #dcdfe8;
 }
 
+.max-w-50 {
+	max-width: 40%;
+}
+
 hr {
 	display: block;
 	height: 1px;
@@ -8536,3 +8540,7 @@ button#sofax-submit-btn:hover {
 
 /*1.4 themes css*/
 /*# sourceMappingURL=app.css.map */
+
+.bg-black {
+	background-color: #262524;
+}
