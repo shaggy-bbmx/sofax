@@ -1,7 +1,7 @@
 function FooterCopyright() {
 	return (
 		<div className="sofax-footer-bottom center">
-			<p>© 2024 Stripe Labs all rights reserved.</p>
+			<p>© 2025 Stripe Technology | All rights reserved</p>
 		</div>
 	);
 }

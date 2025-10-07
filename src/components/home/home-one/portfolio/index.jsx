@@ -210,7 +210,7 @@ function Portfolio() {
 
 			<div className="sofax-testimonial-slider-2">
 				<Swiper {...swiperSettingsTwo}>
-					{testimonialOneData.map((testimonial) => (
+					{testimonialTwoData.map((testimonial) => (
 						<SwiperSlide key={testimonial.id}>
 							<PortfolioCard testimonial={testimonial} />
 						</SwiperSlide>

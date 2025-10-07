@@ -20,7 +20,7 @@ function Header() {
 					<div className="menu-block-wrapper">
 						<DesktopMenu />
 					</div>
-					<HeaderButton />
+					{/* <HeaderButton /> */}
 					<MobileNavbar menuItemsData={menuItemsData} title="Aximo" />
 				</nav>
 			</div>

@@ -97,7 +97,7 @@ function DesktopMenu() {
 			</NavItem> */}
 			<NavItem url="about-us">Portfolio</NavItem>
 			<NavItem url="about-us">Testimonials</NavItem>
-			<NavItem url="contact-us">Contact Us</NavItem>
+			<NavItem url="contact-us">Contact</NavItem>
 		</DesktopNav>
 	);
 }

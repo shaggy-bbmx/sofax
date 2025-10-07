@@ -2,7 +2,8 @@ function HeroContent() {
 	return (
 		<div className="sofax-hero-content center">
 			<h1 className="slider-custom-anim-left" data-ani="slider-custom-anim-left" data-ani-delay="0.3s">
-				Boosting Your SaaS Growth Through Videos
+				Your SaaS Story,
+				Supercharged with splay.
 			</h1>
 			<p>
 				At Splay, we turn tech brilliance into binge-worthy stories. Whether you're launching the next
