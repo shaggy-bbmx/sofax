@@ -1360,9 +1360,9 @@ a.log-in-btn:hover:after {
 
 @media (max-width: 768px) {
 	.video-modal-content {
-		width: 95%;
+		width: 90%;
 		/* almost full width */
-		height: 60vh;
+		height: 65vh;
 		/* increase height */
 		aspect-ratio: unset;
 		/* override 16:9, allow taller layout */
