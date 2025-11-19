@@ -5,6 +5,8 @@ import Thumb2Img from "../../../../assets/images/v1/member2.png";
 import Thumb3Img from "../../../../assets/images/v1/member3.png";
 import thumbnail1 from '../../../../assets/images/vedio-1-thumbnail.jpg'
 import PortfolioCard from "./PortfolioCard";
+import VideoModal from "./VideoModal";
+import { useState } from "react";
 
 
 
@@ -189,20 +191,22 @@ const swiperSettingsTwo = {
 	},
 };
 function Portfolio() {
+
+	const [selectedVideo, setSelectedVideo] = useState(null);
+
+	const openVideo = (url) => {
+		setSelectedVideo(url);
+	};
+
+
 	return (
 		<section className="sofax-section-padding2 bg-black" id="testimonial">
-			{/* <div className="container">
-				<div className="sofax-section-title center">
-					<div className="tg-heading-subheading animation-style3">
-						<h2>See what our users have to say about it</h2>
-					</div>
-				</div>
-			</div> */}
 			<div className="sofax-testimonial-slider">
 				<Swiper {...swiperSettingsOne}>
 					{testimonialOneData.map((testimonial) => (
 						<SwiperSlide key={testimonial.id}>
-							<PortfolioCard testimonial={testimonial} />
+							<PortfolioCard
+								onClick={() => openVideo(testimonial.youtubeUrl)} testimonial={testimonial} />
 						</SwiperSlide>
 					))}
 				</Swiper>
@@ -212,11 +216,17 @@ function Portfolio() {
 				<Swiper {...swiperSettingsTwo}>
 					{testimonialTwoData.map((testimonial) => (
 						<SwiperSlide key={testimonial.id}>
-							<PortfolioCard testimonial={testimonial} />
+							<PortfolioCard
+								onClick={() => openVideo(testimonial.youtubeUrl)}
+								testimonial={testimonial} />
 						</SwiperSlide>
 					))}
 				</Swiper>
 			</div>
+
+			{selectedVideo && (
+				<VideoModal youtubeUrl={selectedVideo} onClose={() => setSelectedVideo(null)} />
+			)}
 
 			<div style={{ width: '100%', display: 'flex', justifyContent: 'center', paddingTop: '4rem' }}>
 				<FadeInUp className="sofax-title-btn">

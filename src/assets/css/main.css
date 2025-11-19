@@ -1316,3 +1316,37 @@ a.log-in-btn:hover:after {
 	border: none;
 	cursor: pointer;
 }
+
+
+.video-modal-overlay {
+	position: fixed;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.7);
+	backdrop-filter: blur(6px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 9999;
+}
+
+.video-modal-content {
+	position: relative;
+	width: 70%;
+	max-width: 900px;
+	aspect-ratio: 16/9;
+	background: #000;
+	border-radius: 12px;
+	overflow: hidden;
+	box-shadow: 0 0 40px rgba(0,0,0,0.3);
+}
+
+.modal-close {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	font-size: 28px;
+	cursor: pointer;
+	color: white;
+	background: transparent;
+	border: none;
+}
