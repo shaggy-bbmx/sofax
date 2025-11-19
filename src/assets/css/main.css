@@ -1359,15 +1359,27 @@ a.log-in-btn:hover:after {
 }
 
 @media (max-width: 768px) {
+	.video-modal-overlay {
+		position: fixed;
+		inset: 0;
+		background: rgba(0, 0, 0, 0.7);
+		backdrop-filter: blur(6px);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		z-index: 9999;
+	}
+
 	.video-modal-content {
 		width: 90%;
 		/* almost full width */
-		height: 65vh;
+		height: 50vh;
 		/* increase height */
-		aspect-ratio: unset;
 		/* override 16:9, allow taller layout */
 		border-radius: 10px;
 	}
+
+
 }
 
 .modal-close {
