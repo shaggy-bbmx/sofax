@@ -123,7 +123,7 @@ bodt {
 }
 
 @media (min-width: 992px) {
-	.site-header--menu-left .container-fluid .nav-item.has-megamenu:hover > .sub-menu {
+	.site-header--menu-left .container-fluid .nav-item.has-megamenu:hover>.sub-menu {
 		transform: translateX(0%) translateY(-10px);
 		left: 0%;
 		margin-left: 20px;
@@ -150,14 +150,14 @@ bodt {
 }
 
 @media (min-width: 992px) {
-	.site-header > .container-fluid .sub-menu.megamenu {
+	.site-header>.container-fluid .sub-menu.megamenu {
 		left: 50%;
 		transform: translateX(-50%) translateY(10px);
 	}
 }
 
 @media (min-width: 992px) {
-	.site-header > .container-fluid .nav-item.has-megamenu:hover > .sub-menu {
+	.site-header>.container-fluid .nav-item.has-megamenu:hover>.sub-menu {
 		transform: translateX(-50%) translateY(-10px);
 		left: 50%;
 	}
@@ -478,7 +478,7 @@ bodt {
 	}
 }
 
-.site-menu-main .sub-menu--item > a {
+.site-menu-main .sub-menu--item>a {
 	color: inherit;
 	padding: 4px 20px;
 	font-weight: 700;
@@ -486,12 +486,12 @@ bodt {
 	position: relative;
 }
 
-.site-menu-main .sub-menu--item > a .menu-item-text {
+.site-menu-main .sub-menu--item>a .menu-item-text {
 	position: relative;
 	transition: all 0.3s ease;
 }
 
-.site-menu-main .sub-menu--item > a .menu-item-text::after {
+.site-menu-main .sub-menu--item>a .menu-item-text::after {
 	content: "";
 	position: absolute;
 	bottom: 0;
@@ -503,14 +503,14 @@ bodt {
 	transition: all 0.3s ease;
 }
 
-.site-menu-main .sub-menu--item > a:hover .menu-item-text::after {
+.site-menu-main .sub-menu--item>a:hover .menu-item-text::after {
 	left: 0;
 	right: auto;
 	width: 100%;
 }
 
 @media (min-width: 992px) {
-	.site-menu-main .sub-menu--item > a {
+	.site-menu-main .sub-menu--item>a {
 		transition: 0.4s;
 	}
 }
@@ -632,7 +632,7 @@ bodt {
 }
 
 @media (min-width: 992px) {
-	li.nav-item-has-children:hover > .sub-menu {
+	li.nav-item-has-children:hover>.sub-menu {
 		margin-top: 5px;
 		visibility: visible;
 		opacity: 1;
@@ -643,7 +643,7 @@ bodt {
 	}
 }
 
-.site-menu-main > li .sub-menu > ul > li > a {
+.site-menu-main>li .sub-menu>ul>li>a {
 	display: inline-block;
 	padding: 10px 0;
 	font-size: 15px;
@@ -653,7 +653,7 @@ bodt {
 	text-transform: capitalize;
 }
 
-.site-menu-main > li .sub-menu.mega-menu {
+.site-menu-main>li .sub-menu.mega-menu {
 	left: 50%;
 	transform: translateX(-50%);
 }
@@ -909,6 +909,7 @@ bodt {
 }
 
 @media (min-width: 1200px) {
+
 	/* .site-header--menu-center .navbar {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -951,11 +952,11 @@ bodt {
 }
 
 @media (min-width: 992px) {
-	.reveal-header li.nav-item-has-children:hover > .sub-menu {
+	.reveal-header li.nav-item-has-children:hover>.sub-menu {
 		top: 100%;
 	}
 
-	.reveal-header li.nav-item-has-children:hover > .megamenu {
+	.reveal-header li.nav-item-has-children:hover>.megamenu {
 		top: 112%;
 	}
 }
@@ -1081,13 +1082,13 @@ a.log-in-btn:hover:after {
 }
 
 /* .swiper slider autoplay infinity  issue solution v.11*/
-.sofax-brand-slider .swiper > .swiper-wrapper,
-.sofax-testimonial-slider .swiper > .swiper-wrapper,
-.sofax-testimonial-slider-2 .swiper > .swiper-wrapper,
-.sofax-slider-logo-wrap .swiper > .swiper-wrapper,
-.sofax-integration-slider-icon-data.swiper > .swiper-wrapper,
-.sofax-integration-slider-icon-data-wrap.swiper > .swiper-wrapper,
-.sofax-slider-service-section .swiper > .swiper-wrapper {
+.sofax-brand-slider .swiper>.swiper-wrapper,
+.sofax-testimonial-slider .swiper>.swiper-wrapper,
+.sofax-testimonial-slider-2 .swiper>.swiper-wrapper,
+.sofax-slider-logo-wrap .swiper>.swiper-wrapper,
+.sofax-integration-slider-icon-data.swiper>.swiper-wrapper,
+.sofax-integration-slider-icon-data-wrap.swiper>.swiper-wrapper,
+.sofax-slider-service-section .swiper>.swiper-wrapper {
 	transition-timing-function: linear !important;
 }
 
@@ -1121,18 +1122,22 @@ a.log-in-btn:hover:after {
 	border-radius: 3px;
 	top: auto;
 }
+
 @media (max-width: 1399px) {
+
 	.sofax-testimonial-2column-slider .swiper-button-prev,
 	.sofax-testimonial-2column-slider .swiper-button-next {
 		bottom: 5%;
 	}
 }
+
 .sofax-testimonial-2column-slider .swiper-button-prev {
 	left: auto;
 	right: 15%;
 	background-image: url(../images/v2/rightarrow.svg);
 	background-color: var(--light-color);
 }
+
 .sofax-testimonial-2column-slider .swiper-button-prev:hover,
 .sofax-testimonial-2column-slider .swiper-button-next:hover {
 	background-color: var(--green-bg);
@@ -1155,10 +1160,12 @@ a.log-in-btn:hover:after {
 .sofax-testimonial-2column-sliderv5 .swiper {
 	padding-bottom: 100px;
 }
+
 .sofax-testimonial-2column-sliderv5 .swiper-button-prev::after,
 .sofax-testimonial-2column-sliderv5 .swiper-button-next::after {
 	display: none;
 }
+
 .sofax-testimonial-2column-sliderv5 .swiper-button-prev,
 .sofax-testimonial-2column-sliderv5 .swiper-button-next {
 	top: auto;
@@ -1177,10 +1184,12 @@ a.log-in-btn:hover:after {
 	background-image: url(../images/v5/left-arrow.svg);
 	border: 1px solid var(--dark-bg);
 }
+
 .sofax-testimonial-2column-sliderv5 .swiper-button-prev {
 	left: 13%;
 	background-image: url(../images/v5/right-arrow.svg);
 }
+
 .sofax-testimonial-2column-sliderv5 .swiper-button-prev:hover,
 .sofax-testimonial-2column-sliderv5 .swiper-button-next:hover {
 	background-color: var(--accent-color);
@@ -1196,6 +1205,7 @@ a.log-in-btn:hover:after {
 .sofax-accordion-wrap3 .accordion-button:not(.collapsed) {
 	color: var(--white-bg) !important;
 }
+
 .sofax-accordion-wrap3 .collapse.show .accordion-body {
 	color: var(--white-bg);
 }
@@ -1207,6 +1217,7 @@ a.log-in-btn:hover:after {
 	padding: 15px 0px;
 	box-shadow: none;
 }
+
 .sofax-accordion-home7.sofax-accordion-wrap1 .accordion-item:has(.accordion-collapse.show) {
 	border: none;
 	box-shadow: none;
@@ -1241,9 +1252,11 @@ a.log-in-btn:hover:after {
 .sofax-service-slider .sofax-service-slider-data {
 	margin-right: 0;
 }
+
 .sofax-service-slider .sofax-service-slider-wrap {
 	margin-right: 0;
 }
+
 .sofax-service-slider .swiper-slide {
 	width: auto;
 }
@@ -1252,12 +1265,15 @@ a.log-in-btn:hover:after {
 .sofax-member-bar {
 	position: relative;
 }
+
 .sofax-member-info {
 	margin-bottom: 10px;
 }
+
 .sofax-progressbar {
 	margin-bottom: 18px;
 }
+
 .sofax-progressbar div div span {
 	position: absolute;
 	color: #000 !important;
@@ -1283,6 +1299,7 @@ a.log-in-btn:hover:after {
 .site-header.dark-bg .sub-menu--item.nav-item-has-children .arrow-down-icon {
 	fill: #000;
 }
+
 .site-header .mobile-nav-wrap .arrow-down-icon {
 	fill: #000;
 }
@@ -1307,6 +1324,7 @@ a.log-in-btn:hover:after {
 	justify-content: center;
 	align-items: center;
 }
+
 .hero5-thumb .play-btn-img {
 	position: absolute;
 	left: 50%;
@@ -1337,7 +1355,19 @@ a.log-in-btn:hover:after {
 	background: #000;
 	border-radius: 12px;
 	overflow: hidden;
-	box-shadow: 0 0 40px rgba(0,0,0,0.3);
+	box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 768px) {
+	.video-modal-content {
+		width: 95%;
+		/* almost full width */
+		height: 60vh;
+		/* increase height */
+		aspect-ratio: unset;
+		/* override 16:9, allow taller layout */
+		border-radius: 10px;
+	}
 }
 
 .modal-close {
