@@ -5,13 +5,13 @@ import FadeInUp from "../../../animation/FadeInUp";
 function HeroThumbs() {
 	return (
 		<FadeInUp className="sofax-hero-thumb1">
-			<img src={Dashboard} alt="Dashboard" />
+			{/* <img src={Dashboard} alt="Dashboard" />
 			<div className="sofax-hero-shape">
 				<img src={Shape1} alt="shape" />
 			</div>
 			<div className="sofax-hero-shape2">
 				<img src={Shape2} alt="shape" />
-			</div>
+			</div> */}
 		</FadeInUp>
 	);
 }

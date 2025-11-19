@@ -49,13 +49,13 @@ function Footer() {
 								<h5>Company</h5>
 								<ul>
 									<li>
-										<a href="about-us.html">Portfolio</a>
+										<a href="https://www.youtube.com/@splay-video-production">Portfolio</a>
 									</li>
 									<li>
-										<a href="contact-us.html">Testimonials</a>
+										<a href="#testimonial">Testimonials</a>
 									</li>
 									<li>
-										<a href="contact-us.html">Contact at</a>
+										<a>Contact at</a>
 									</li>
 									{/* <li>
 										<a href="terms&condition.html">Terms & Conditions</a>
