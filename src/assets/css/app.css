@@ -2422,10 +2422,10 @@ a.social-icon img {
 	justify-content: center;
 }
 
-.sofax-footer-title-btn-icon:hover {
+/* .sofax-footer-title-btn-icon:hover {
 	border: 1px solid var(--accent-color);
 	background-color: var(--accent-color);
-}
+} */
 
 @media (max-width: 1199px) {
 	.sofax-footer-title-btn-icon {

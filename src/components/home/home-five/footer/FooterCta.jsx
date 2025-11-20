@@ -25,7 +25,7 @@ function FooterCta() {
 				</div>
 				<div className="col-xl-4 col-lg-4 d-flex align-items-center justify-content-end">
 					<div className="sofax-footer-title-btn-wrap">
-						<Link className="sofax-footer-title-btn-icon" to="/contact-us">
+						<div className="sofax-footer-title-btn-icon">
 							<svg
 								width="30"
 								height="27"
@@ -41,7 +41,7 @@ function FooterCta() {
 								/>
 							</svg>
 							<span></span>
-						</Link>
+						</div>
 					</div>
 				</div>
 			</div>
