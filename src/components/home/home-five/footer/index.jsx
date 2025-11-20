@@ -44,7 +44,7 @@ function Footer() {
 								</div>
 							</div>
 						</div>
-						<div className="col-xl-3 col-md-4">
+						<div className="col-xl-3 col-md-4" id="footer">
 							<div className="sofax-footer-menu ml-50">
 								<h5>Company</h5>
 								<ul>
