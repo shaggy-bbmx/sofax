@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 import ArrowDown from "./ArrowDown";
 function NavItem({ dropdown, title, children, url = "" }) {
-	const urlFormated = url !== "/" ? `/${url}` : "/";
+	// const urlFormated = url !== "/" ? `/${url}` : "/";
 
 	return dropdown ? (
 		<li className="nav-item nav-item-has-children">
@@ -13,9 +13,12 @@ function NavItem({ dropdown, title, children, url = "" }) {
 		</li>
 	) : (
 		<li className="nav-item">
-			<Link to={urlFormated} className="nav-link-item">
+			{/* <Link to={url} className="nav-link-item">
 				{children}
-			</Link>
+			</Link> */}
+			<a href={url} className="nav-link-item">
+				{children}
+			</a>
 		</li>
 	);
 }

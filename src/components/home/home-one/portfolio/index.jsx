@@ -200,7 +200,7 @@ function Portfolio() {
 
 
 	return (
-		<section className="sofax-section-padding2 bg-black" id="testimonial2">
+		<section className="sofax-section-padding2 bg-black" id="portfolio">
 			<div className="sofax-testimonial-slider">
 				<Swiper {...swiperSettingsOne}>
 					{testimonialOneData.map((testimonial) => (

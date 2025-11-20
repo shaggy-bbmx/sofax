@@ -8,6 +8,7 @@ import PLayStore from "../../../../assets/images/v1/play-store.png";
 function Footer() {
 	return (
 		<footer className="sofax-footer-section">
+
 			<div className="container">
 				<div className="sofax-footer-top">
 					<div className="row">
@@ -159,6 +160,7 @@ function Footer() {
 				</div>
 				<CopyRight />
 			</div>
+			<section style={{ height: '1px' }} id="footer"></section>
 		</footer>
 	);
 }
